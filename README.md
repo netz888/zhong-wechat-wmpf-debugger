@@ -2,6 +2,14 @@
 
 [中文说明](README.zh-CN.md)
 
+> ## ⚠️ Download Note (Important)
+>
+> **Download the packaged `zhong-wechat-wmpf-debugger-v*.zip` from [Releases](https://github.com/netz888/zhong-wechat-wmpf-debugger/releases). Do NOT use the "Source code (zip)" link.**
+>
+> The frida prebuilt binary (~114MB) exceeds GitHub's per-file limit and cannot be stored in the source tree. The Source code archive is **missing the prebuilt files** and will fail at runtime with `Cannot find module '...frida/build/src/frida.js'`.
+>
+> If you insist on using the Source code, install the Node deps yourself: `cd vendor/wmpfdebugger && npm install` (this downloads the frida prebuilt binary automatically).
+
 Force-enable F12 style debugging for Windows WeChat miniapps, with support for both legacy Python/Frida workflows and modern WMPF `4.x` runtimes.
 
 ![DevTools Preview](docs/images/demo2.png)

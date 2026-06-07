@@ -2,6 +2,14 @@
 
 [English](README.md)
 
+> ## ⚠️ 下载须知（重要）
+>
+> **请到 [Releases](https://github.com/netz888/zhong-wechat-wmpf-debugger/releases) 下载打包好的 `zhong-wechat-wmpf-debugger-v*.zip`，不要直接点 “Source code (zip)”。**
+>
+> 因为 frida 的预编译二进制（约 114MB）超过 GitHub 单文件限制，无法放进源码树。直接下载 Source code 会**缺少预编译文件**，运行时报 `Cannot find module '...frida/build/src/frida.js'`。
+>
+> 如果你坚持使用 Source code，需要自己补依赖：`cd vendor/wmpfdebugger && npm install`（会自动下载 frida 预编译二进制）。
+
 这是一个面向 Windows 微信小程序运行时的 **强开 F12 调试工具**。  
 它同时保留了旧版 Python/Frida 调试路径，并对较新的 WMPF `4.x` 运行时提供本地桥接调试方案。
 
