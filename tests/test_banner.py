@@ -14,7 +14,7 @@ class BannerIntegrityTests(unittest.TestCase):
             banner.get_banner_lines(),
             [
                 "\u95f2\u9c7c\uff1a\u949f\u5c11\u5927\u738b666",
-                "Github\uff1ahttps://github.com/Zhong-fangshuo",
+                "Github\uff1ahttps://github.com/netz888",
             ],
         )
 

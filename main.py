@@ -8,7 +8,7 @@ from utils.commons import Commons
 
 
 _BANNER_FILE = Path(__file__).resolve().parent / "utils" / "banner.py"
-_EXPECTED_BANNER_FILE_HASH = "5a02f977a5ad5f6a72f3ac85f903cdf543372d9ac9c5a463ea2bf01d750c7190"
+_EXPECTED_BANNER_FILE_HASH = "d4701d951f9cfdcf78c0744c081df2b72adca1346a2ad7740eba76ce82c4eafa"
 _BANNER_STOP_MESSAGE = "[-] Banner信息不允许修改，已停止运行"
 
 

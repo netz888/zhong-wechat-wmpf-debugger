@@ -5,10 +5,10 @@ import zlib
 
 _PAYLOAD_KEY = b"ZhongBannerKey"
 _ENC_PAYLOAD = (
-    "BC_H;DlNKLcH5a8bw!iI%nJG8IcpNF_1$9$he#RU0SiHf?bphJ!B~hh?M~oc7c^PXvCCw<+Q}^M`IryW!e(%<s=Wgmg)x5zE8IfDKR!f^BvgQzEPj2z>gKvGH1%g?#Id#$>1khwi!_Jp+GbiqE2?qgSL^Glw&8qa3v7(5{>a0~1n`shiMNFr3zBD^h3()<sj$bz!LxLxTw~^HEVPr4poiR<0FBQPmj-~Gwy@FvkdvF?2=v~|iqQQ&IVYb@sRfOIjE6E=;hek5YcOvgQx3oVc*bV5B-{eQkgse>-P6Y^68w47q0_RQ+`4z#t0A4Q2)mnX)RQH^fz#yM0DR=vy_Cf(7znMAB-_xXZbjRIK2NrsIWsW$+{KRC!}xpv%()TOpO?}C=e;6#xtybKHWqsdth}R}q`gp8ju7;j0x^(-hpm={tR0>c5t9nJs-lyDfceP0-Bb}5hqqL%ZbdIo_lqL$T`xkaUq0Q`!3OCKVmj4MVe9=^X7(K*=@GbnW{cX#eh)3n`44GQ7E*`lv3lz0#HmZ>=uu;&%lxIoR5<p^ehs0w6NelwtW%;m^x<qO<Nrc4bjWeSQF30NW?I?f`GytzqAWL)`aa7IUsw`4>k**k*>G)te_NkMKBT|_4<*&HH$?Ol$s$4g$TIaPdsprV!U!X(QLb%4KpP<>D`s4YTy>}KT(g`R_ae@pqdTrvAH;p)i_T;_V<2j8?OWT=6gMxaYz!}Anu3*6l*0Oe+H_dP`n73sdge`cXGil3uS85G7Crhf8cJLJd`GQEa<OBpucZTGEH4UCfM-5519VVJ0dp>DeVOLGbcvl@6QMaUOj6R6rurjz?$0sTfGK*OI@D0u$ogi8T#T7Ka344&s<Cky_?Ler@MPQZ6XTVFAFw5S^wL`}BA6YRJ@Wj2d{Xqv@{L*|5W^<pk{o8M73oVydMO_T)Xiq=aB8YJCEF_>>EZFU&+A=$p;2ADj~h^@v2|?XDk8#c`-jWV1w7$Wp$zbHDB)gzUZD6|R~L&CmgxR0RXEaOo9y$W)YU%0_jDEl)jn6{5NCirwZOWoU6#ZzFO)dsiMA2e)SsxDMaWi`{*wRtybM6r=9Tz_kBb$XfgYuTS63KCu;{7H)hE-yIgZa53$#)Li^9$}vH9BW><2QN;C(d+o@ptSob-`>K!wpT"
+    "BC_H;DlNKLcH5a8bw!iI#7a3~x@!`x_1$9$he#Q|0t-PVOaKGeOgjGG%P(nrmAcxE^hsv_TPx&jTKBpXH)3{!`ta$DyU|z3^$IsD>7gf+rx3A$@Fr2>3~O-AU|1_%%@E*4Ux(@a6|~ek3tYciSj=Y*sw}!kN^|+}?m7o&n7!J7*9D@Z?h}O5(MLOO5OOyEYDy>*(hU+v7%6Rs@f_O6<&u<|gsToY(V0WFj-IQ7Sdm&e1N2DAShatco1l7<=dnQ5RZ^wgVHhJ=C|?+s30mrn>@66=JH?yAGI><p&<_XCVxp|o%7EI2YSA~M$MM{up0JqT6y@h5eW(d7xC-CV$=5&av~*>bfkXUziPQ{OwqO$lBif8U2DqOc#~U0?SAvx@#qiNzxw6*NVAOmh9~lh2mz$!eoM9-1?%_eY4|7@qEt!q6=;cO@5xf1w8pa}%g`A7Kgr$AW8&Ri6$}y~_d4%O0^M(%<FinBuf55xf@I}aKeQf#KnJk%R<rz!6=&&p1!Qm&Q0y$kF609xB)q7N*`S9%wDkM}aEL2${;r%PsH{GkyT1-!`Mnb18f>XcCwrKGty(I$NCz_$)KNCP#n<ONNC%F-I+)Lr5_cXKMxr7u+$A1NgB){_ZpksJl#|}2OPGlqflc*7@lfHiw%wb!$D9Y#uXPm|^yjlZ>vg~U|1n(~@UG9L@-&4b?ARBdk+FmY3d|4#<8ScQx`4;vTEI988Si~kSQbPiBi$S4E8vdmoT|pu!>uYl+_oC2Z%F+oA;7DQ7;BSXwSI~rMAvELfcoY9B*Jf*6PQTN6!)%Yx9~|Db(-%8`6mX>_hvJDz)>3(CRjt%o(@sTPx5*>T*6-(_C|lA0;N0;wJ(oC_1ZR5z%PdMGc|?*sZ2k9Lj^_he>;8WHHkQ;}c16$N%&kKO1Ll)W<f3=;pFTP~e-8~H-qBvj`h6D@E88M4`o?;xXUJC@oC{sLhAd5jI%z~lAT{4c^@PIk7TM}f$v^UE6v|M1SG((fTq~?Gy#K=lTliQ;sLA-h)c!wI%f4Ad%n?UG+0x#52%<3Ga8gSVHrV+C#(dLHZL-D?&ez2iUDzf&Kb78!AF)^d{&pZ2p#}VB{8Rv!+%vL%I4)xz7iAA4BK4wfUmv?HPnmNG(g4MPW}z7lgLd3xG0mlE4!+w)"
 )
 _EXPECTED_PAYLOAD_HASH = (
-    "2a0fb682ccf41c40ec4fc1030512320746c0d4d542d0971780383049d08d6928"
+    "335b5e3634bbe5de9ded78d10405873b6f2c964fc6cddb8add80b19c35fdcfdc"
 )
 
 
