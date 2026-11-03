@@ -23,6 +23,7 @@ const {
 } = require("./replay-gate");
 const { buildReconnectResetEvents } = require("./reconnect-events");
 const { createNetworkSynthesizer } = require("./network-synth");
+const { createWmpfStreamParser } = require("./wmpf-stream");
 
 const codex = require("./third-party/RemoteDebugCodex.js");
 const messageProto = require("./third-party/WARemoteDebugProtobuf.js");
@@ -237,7 +238,12 @@ const debug_server = (options, logger, state) => {
             );
         }
 
-        ws.on("message", onMessage);
+        const streamParser = createWmpfStreamParser();
+        ws.on("message", (message) => {
+            for (const packet of streamParser.push(message)) {
+                onMessage(packet);
+            }
+        });
         ws.on("error", (error) => {
             logger.error("[miniapp] miniapp client err:", error);
         });
