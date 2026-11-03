@@ -79,6 +79,8 @@ class WechatUtils:
     def build_runtime_info(self, pid, process_path, cmdline):
         runtime_path = process_path or (cmdline[0] if cmdline else "")
         wmpf_version = self.extract_wmpf_version_from_path(runtime_path)
+        if wmpf_version is None:
+            wmpf_version = self.extract_wmpf_version_from_path(" ".join(cmdline or []))
         client_version = self.extract_client_version_number(cmdline)
 
         if wmpf_version is not None:

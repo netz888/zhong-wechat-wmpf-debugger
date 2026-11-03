@@ -37,6 +37,22 @@ class RuntimeDetectionTests(unittest.TestCase):
         self.assertEqual(runtime["mode"], "wmpf")
         self.assertEqual(runtime["version"], 19027)
 
+    def test_classifies_wmpf_runtime_from_flue_runtime_argument(self):
+        runtime = self.utils.build_runtime_info(
+            pid=1234,
+            process_path=(
+                r"C:\Users\me\AppData\Roaming\Tencent\xwechat\XPlugin\Plugins\RadiumWMPF\WeChatAppEx.exe"
+            ),
+            cmdline=[
+                r"C:\Users\me\AppData\Roaming\Tencent\xwechat\XPlugin\Plugins\RadiumWMPF\WeChatAppEx.exe",
+                r"--flue-runtime-dir=C:\Users\me\AppData\Roaming\Tencent\xwechat\xplugin\plugins\RadiumWMPF\26073\extracted\runtime",
+                "--client_version=4065599500",
+            ],
+        )
+        self.assertEqual(runtime["mode"], "wmpf")
+        self.assertEqual(runtime["version"], 26073)
+        self.assertEqual(runtime["client_version"], 4065599500)
+
     def test_classifies_legacy_runtime(self):
         runtime = self.utils.build_runtime_info(
             pid=5678,

@@ -29,8 +29,8 @@ It is designed to:
 
 Verified working with:
 
-- WeChat `4.1.11.55`
-- WMPF `20089`
+- WeChat `4.2.0.12`
+- WMPF `26073`
 
 ![Version Preview](docs/images/version.png)
 
@@ -45,7 +45,7 @@ The official WeChat installer is **not** distributed with this repository.
 - `python main.py --check` to verify whether the current runtime is supported
 - `python main.py -x` to start miniapp debugging
 - automatic handling for WMPF runtime reconnects
-- current verified support for the latest tested `4.1.11.55 / 20089` runtime path
+- current verified support for the latest tested `4.2.0.12 / 26073` runtime path
 
 ## Requirements
 
@@ -106,7 +106,7 @@ python main.py --check
 Example output:
 
 ```text
-当前 WMPF 版本 20089：支持
+当前 WMPF 版本 26073：支持
 ```
 
 ### Step 2. Start the local debugging bridge

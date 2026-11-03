@@ -10,6 +10,9 @@ class WMPFBridgeCommandTests(unittest.TestCase):
     def test_vendor_config_includes_19481(self):
         self.assertIn(19481, WechatUtils().wmpf_version_list)
 
+    def test_vendor_config_includes_26073(self):
+        self.assertIn(26073, WechatUtils().wmpf_version_list)
+
     def test_builds_expected_node_command(self):
         command = build_wmpf_bridge_command(
             vendor_root=r"D:\repo\vendor\wmpfdebugger",

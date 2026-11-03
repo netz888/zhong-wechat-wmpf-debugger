@@ -10,7 +10,7 @@ Current public-facing scope:
 - bundled WMPF runtime bridge retained
 - WMPF support check via `python main.py --check`
 - modern WMPF runtime support through vendored configuration files
-- verified support for the current tested WeChat `4.1.8` path
+- verified support for WeChat `4.2.0.12` / WMPF `26073`
 
 ## Current Usage
 
